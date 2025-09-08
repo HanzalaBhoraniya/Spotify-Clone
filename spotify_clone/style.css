@@ -1,0 +1,503 @@
+body {
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.maindiv {
+  display: flex;
+  padding: 8px 8px 0px 8px;
+}
+
+.sidebar {
+  background-color: #000;
+  height: 100vh;
+  width: 400px;
+  border-radius: 1rem;
+  margin: 0rem 0.5rem 0rem 0rem;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.main-content {
+  background-color: #121212;
+  height: 100vh;
+  flex: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+
+.nav-options i,a {
+  color: white;
+  font-size: 1.25rem;
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  height: 120px;
+  /* width: 92%; */
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+}
+
+.nav-options a {
+  text-decoration: none;
+}
+
+.nav-options {
+  line-height: 2.5rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+}
+
+/* library ki syling karraha hu */
+
+.library {
+  height: 100%;
+  background-color: #121212;
+  border-radius: 1rem;
+  /* width: 92%; */
+  margin: 9px 0px 0px 0px;
+  justify-content: flex-start;
+  padding-top: 0.75rem;
+}
+
+.library .lib-options-1 .your-lib img {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+.lib-options-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  /* margin: 0.75rem 0.75rem; */
+}
+
+.your-lib a {
+  text-decoration: none;
+}
+
+.lib-options-1 div i {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.your-lib {
+  cursor: pointer;
+}
+
+/* boxes ki styling karra ha hu */
+
+.box {
+  background-color: #242424;
+  height: 150px;
+  border-radius: 0.7rem;
+  padding: 1rem 1.25rem 1.20rem 1.25rem;
+  margin: 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-para-1 {
+  font-weight: 600;
+  font-size: 1.20rem;
+  margin-top: 0.50rem;
+}
+
+.box-para-2 {
+  font-weight: 300;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.create-playlist-btn {
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  padding: 0.25rem 1rem;
+  height: 42px;
+  width: 150px;
+  color: #000;
+  cursor: pointer;
+  /* position: absolute;
+  bottom: 0px; */
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-2 {
+  height: 190px;
+}
+
+/* sticky bar ki syling karraha hu. */
+
+.sticky-bar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  background-color: #121212;
+  /* background-color: green; */
+  padding: 0.5rem 1.5rem;
+  z-index: 10;
+}
+
+.backward-forward-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4.5rem;
+}
+
+.sticky-nav-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.other-elements {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  font-size: 0.88rem;
+  padding: 0.25rem 1rem;
+  width: 143px;
+  height: 32px;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.right-icon {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.backward-forward-icons img {
+  height: 1rem;
+  width: 1rem;
+}
+
+.user-profile {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-profile i {
+  font-size: 1rem;
+}
+
+.explore-premium-btn {
+  width: 9.25rem;
+  height: 2.1rem;
+  cursor: pointer;
+}
+
+.install-app-btn {
+  background-color: #121212;
+  /* background-color: green; */
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  width: 6.80rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.7;
+
+}
+
+.install-app-btn i {
+  color: #fff;
+}
+
+.install-app-btn img {
+  height: 1rem;
+  width: 1rem;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+/* display: flex; */
+/* align-items: center; */
+
+/* main content me card ki styling karraha hu */
+
+.cards {
+  /* background-color: blue; */
+  padding: 0.001rem 1.5rem 1.5rem 1.5rem;
+}
+
+.card {
+  background-color: #171717;
+  /* background-color: green; */
+  width: 175px;
+  /* height: 400px; */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card .card-title {
+  font-weight: 600;
+}
+
+.card .card-description {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.heading-and-card-container {
+  /* background-color: red; */
+}
+
+.cards-container {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 1.1rem; */
+}
+
+.heading-of-cards {
+  /* background-color: magenta; */
+}
+
+/* footer ki styling karraha hu */
+
+.footer {
+  height: 200px;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.line {
+  height: 2px;
+  width: 90%;
+  background-color: gray;
+  opacity: 0.3;
+  margin-top: 1rem;
+  border-radius: 50%;
+}
+
+/* playback bar ki styling karraha hu */
+
+.song-details .song-image {
+  height: 3.5rem;
+  width: 3.5rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.now-playing {
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  height: 72px;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  /* margin: 8px; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.song-details, .playback-bar, .other-controls {
+  height: 100%;
+}
+
+.song-details {
+  /* background-color: blue; */
+  /* width: 27%; */
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 3.5rem;
+}
+
+.playback-bar-and-controls {
+  /* background-color: magenta; */
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-controls {
+  background-color: black;
+  width: 27%;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  justify-content: flex-end;
+}
+
+.song-info {
+  /* background-color: black;  */
+  height: 100%;
+  margin: 0rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.song-details .plus-icon {
+  height: 1.25rem;
+  /* font-size: 0.5rem; */
+  cursor: pointer;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.baap-song-details {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  width: 27%;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* width: 90%; */
+  /* background-color: yellow; */
+  /* margin-left: 1rem; */
+}
+
+.song-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0.25rem;
+}
+
+.artist-name {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.other-icons {
+  /* margin: 0rem 0.75rem; */
+  width: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other-controls-container {
+  background-color: black;
+  /* background-color: red; */
+  width: 61%;
+  height: 100%;
+  margin: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: absolute; */
+  /* right: 0px; */
+}
+
+.other-controls-container i {
+  cursor: pointer;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.playback-bar-controls img {
+  height: 1rem;
+  width: 1rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.playback-bar-controls {
+  /* background-color: red; */
+  flex: 1;
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playback-bar {
+  width: 80%;
+  /* background-color: blue; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 94%;
+  margin: 0rem 0.5rem;
+  appearance: none;
+  height: 0.2rem;
+  background-color: transparent;
+}
+
+.time {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.volume-slider {
+  appearance: none;
+  width: 6.6rem;
+  height: 0.2rem;
+  background-color: transparent;
+}
+
+.progress-bar::-webkit-slider-thumb, .volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -0.3rem;
+}
+
+.progress-bar::-webkit-slider-runnable-track, .volume-slider::-webkit-slider-runnable-track {
+  height: 0.2rem;
+  background-color: rgb(119, 119, 119);
+  border-radius: 0.1rem;
+  cursor: pointer;
+  border-radius: 100px;
+}
